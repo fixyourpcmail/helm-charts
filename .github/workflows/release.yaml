@@ -10,7 +10,7 @@ on:
 
 jobs:
   release:
-    runs-on: self-hosted
+    runs-on: "kube-master"
     steps:
       - name: Checkout
         uses: actions/checkout@v3
