@@ -22,4 +22,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit_email: zdravkocom3@gmail.com
           charts_dir: stable
-
