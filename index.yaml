@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  custom-osd:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2022-05-15T22:58:13.364322339Z"
+    description: A Helm chart for Kubernetes OSD Deployment
+    digest: e9aad651bb6ed95b8c4ae069c0082c63098967b0530fa97422b4490a69a0c4ed
+    home: https://github.com/kubernetes/autoscaler
+    icon: https://cncf-branding.netlify.app/img/projects/helm/icon/color/helm-icon-color.png
+    maintainers:
+    - email: zdravkocom3@gmail.com
+      name: ZdravkoChiflishki
+    name: custom-osd
+    sources:
+    - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+    - https://github.com/spotinst/kubernetes-autoscaler/tree/master/cluster-autoscaler
+    type: application
+    urls:
+    - https://fixyourpcmail.github.io/helm-charts/custom-osd-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-05-15T22:58:13.361582054Z"
