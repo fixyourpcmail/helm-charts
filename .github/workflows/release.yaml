@@ -12,6 +12,10 @@ jobs:
   release:
     runs-on: "kube-master"
     steps:
+
+      - name: Configure Git
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
       - name: Checkout
         uses: actions/checkout@v3
 
