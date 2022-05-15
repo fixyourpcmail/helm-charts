@@ -19,5 +19,6 @@ jobs:
         uses: fixyourpcmail/helm-gh-pages@main
         with:
           token: ${{ secrets.CR_TOKEN }}
+          commit_email: zdravkocom3@gmail.com
           charts_dir: stable
 
