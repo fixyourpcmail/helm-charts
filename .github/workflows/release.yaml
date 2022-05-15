@@ -10,10 +10,11 @@ on:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@v1.4.1
         with:
