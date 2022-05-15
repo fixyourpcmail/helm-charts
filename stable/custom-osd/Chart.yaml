@@ -10,5 +10,5 @@ sources:
 - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
 - https://github.com/spotinst/kubernetes-autoscaler/tree/master/cluster-autoscaler
 maintainers:
-- name: chz1sf
-  email: chz1sf@bosch.com
+- name: ZdravkoChiflishki
+  email: zdravkocom3@gmail.com
